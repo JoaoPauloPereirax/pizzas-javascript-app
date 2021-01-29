@@ -1,7 +1,10 @@
 <h1 align="center">
 <img src="./assets/images/pizza.png" width="250px" /><br>
- <strong align="center">System of a pizzeria</strong>
+   <strong align="center">System of a pizzeria</strong>
 </h1>
+<h2 align="center">
+   <strong align="center">[See the page on github pages](https://joaopaulopereirax.github.io/pizzas-javascript/)</strong>
+</h2>
 
 <p align="center">
   <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -31,7 +34,7 @@ Project developed in the JavaScript course in [B7WEB](https://b7web.com.br/fulls
 
 #### 💻 Frontend
 
-See how the Backend works and how to use in this page: [Frontend](https://github.com/JoaoPauloPereirax/pizzas-javascript.git)
+See how the Frontend works and how to use in this page: [Frontend](https://github.com/JoaoPauloPereirax/pizzas-javascript.git)
 
 ## 🤔 How to Contribute
 
