@@ -70,3 +70,10 @@ selec(".pizzaInfo--qtmais").addEventListener("click", () => {
   modalQt++;
   selec(".pizzaInfo--qt").innerHTML = modalQt;
 });
+
+selecAll(".pizzaInfo--size").forEach((size, sizeIndex) => {
+  size.addEventListener("click", () => {
+    selec(".pizzaInfo--size.selected").classList.remove("selected");
+    size.classList.add("selected");
+  });
+});
