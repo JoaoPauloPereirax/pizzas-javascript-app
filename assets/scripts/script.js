@@ -1,6 +1,7 @@
 const selec = (el) => document.querySelector(el);
 const selecAll = (el) => document.querySelectorAll(el);
 
+//Listagem de Pizzas
 pizzaJson.map((item, index) => {
   let pizzaItem = selec(".models .pizza-item").cloneNode(true);
 
@@ -41,3 +42,17 @@ pizzaJson.map((item, index) => {
 
   selec(".pizza-area").append(pizzaItem);
 });
+
+//Eventos MODAL
+function closeModal() {
+  selec(".pizzaWindowArea").style.opacity = 0;
+  setTimeout(() => {
+    selec(".pizzaWindowArea").style.display = "none";
+  }, 500);
+}
+
+selecAll(".pizzaInfo--cancelMobileButton, .pizzaInfo--cancelButton").forEach(
+  (item) => {
+    item.addEventListener("click", closeModal);
+  }
+);
