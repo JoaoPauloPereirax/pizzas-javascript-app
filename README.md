@@ -3,7 +3,7 @@
    <strong align="center">System of a pizzeria</strong>
 </h1>
 <h2 align="center">
-   <strong align="center">[See the page on github pages](https://joaopaulopereirax.github.io/pizzas-javascript/)</strong>
+   <strong align="center"><a href="https://joaopaulopereirax.github.io/pizzas-javascript/">See the page on github pages</a></strong>
 </h2>
 
 <p align="center">
