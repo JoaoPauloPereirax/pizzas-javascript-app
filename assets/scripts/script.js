@@ -1,3 +1,5 @@
+let modalQt = 1;
+
 const selec = (el) => document.querySelector(el);
 const selecAll = (el) => document.querySelectorAll(el);
 
@@ -56,3 +58,15 @@ selecAll(".pizzaInfo--cancelMobileButton, .pizzaInfo--cancelButton").forEach(
     item.addEventListener("click", closeModal);
   }
 );
+
+selec(".pizzaInfo--qtmenos").addEventListener("click", () => {
+  if (modalQt > 1) {
+    modalQt--;
+    selec(".pizzaInfo--qt").innerHTML = modalQt;
+  }
+});
+
+selec(".pizzaInfo--qtmais").addEventListener("click", () => {
+  modalQt++;
+  selec(".pizzaInfo--qt").innerHTML = modalQt;
+});
