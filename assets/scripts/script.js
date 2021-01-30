@@ -24,7 +24,11 @@ pizzaJson.map((item, index) => {
       key
     ].price.toFixed(2)}`;
 
+    selec(".pizzaInfo--size.selected").classList.remove("selected");
     selecAll(".pizzaInfo--size").forEach((size, sizeIndex) => {
+      if (sizeIndex == 2) {
+        size.classList.add("selected");
+      }
       size.querySelector("span").innerHTML = pizzaJson[key].sizes[sizeIndex];
     });
 
