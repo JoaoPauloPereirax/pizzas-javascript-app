@@ -101,4 +101,14 @@ selec(".pizzaInfo--addButton").addEventListener("click", () => {
       qt: modalQt,
     });
   }
+  updateCart();
+  closeModal();
 });
+
+function updateCart() {
+  if (cart.length > 0) {
+    selec("aside").classList.add("show");
+  } else {
+    selec("aside").classList.remove("show");
+  }
+}
