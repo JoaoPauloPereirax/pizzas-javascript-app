@@ -1,6 +1,6 @@
 <h1 align="center">
 <img src="./assets/images/pizza.png" width="250px" /><br>
-   <strong align="center">System of a pizzeria</strong>
+   <strong align="center">System of a pizzaria</strong>
 </h1>
 <h2 align="center">
    <strong align="center"><a href="https://joaopaulopereirax.github.io/pizzas-javascript-app/">See the page on github pages</a></strong>
